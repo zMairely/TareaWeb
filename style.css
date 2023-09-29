@@ -1,0 +1,42 @@
+#parrafo3{
+    color: black;
+    font-size: 100px;
+}
+
+body {
+        
+    font-size: 15px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(194, 16, 102);
+    grid-gap: 10px;
+}
+
+.box {
+    background-color: #0000009a;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header {
+    grid-column: 1/6;
+}
+
+.article {
+    grid-column: 1/5;
+}
+
+.aside {
+    grid-column: 5/6;
+    grid-row: 2/5;
+}
+
+.footer {
+    grid-column: 1/6;
+
+}
